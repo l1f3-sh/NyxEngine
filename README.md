@@ -20,7 +20,8 @@ nyxengine/
     test_api.py           # API tests (TBD)
 ```
 
-Getting started
+## Getting started
+
 - The core matching logic lives in `app/engine/orderbook.py` and is exercised by `tests/test_orderbook.py`.
 - Order and enum definitions are in `app/engine/order.py` and `app/schema.py`.
 - Infra stubs are placeholders to be implemented later.
