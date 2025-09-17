@@ -2,8 +2,7 @@
 
 # dataclass keeps event payloads lightweight, structured, and serializable.
 from dataclasses import dataclass, field
-# Decimal mirrors the precision of the order entities for price/size fields.
-from decimal import Decimal
+from decimal import Decimal             # Decimal mirrors the precision of the order entities for price/size fields.
 # datetime stamps events so downstream consumers can order them if needed.
 from datetime import datetime, timezone
 # typing aids readability for optional payloads (e.g., textual reason codes).
